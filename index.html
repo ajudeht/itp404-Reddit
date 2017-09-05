@@ -1,0 +1,75 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<script src="/js/jquery-3.2.1.js"></script>
+
+<link rel="stylesheet" type="text/css" href="/style/main.css">
+<link rel="stylesheet" type="text/css" href="/style/animate.css">
+
+<title>Reddit</title>
+</head>
+<body >
+
+<div class="fixedheader">
+  <div class="fixedheader_inner">
+
+    <div class="flex-container">
+
+    <div class="flex-item headerhide animated" style="flex-grow: 0; margin-right: 1em;">
+      <a class="nostyle" href="#"><img src="media/images/logo_square.png" class="logo_circle header_top head"/></a>
+    </div>
+    <div class="flex-item headerhide animated" style="margin-right: .5em">
+      <input class="headersearch header_top" type="text" placeholder="Search"/>
+      <button class="headerbutton header_top mi ">search</button>
+    </div>
+    <div class="flex-item" id="headersublist">
+
+      </div>
+
+    </div>
+    </div>
+
+    <div class="header_hidden">
+    </div>
+
+
+</div>
+
+<div class="bodymain">
+  <br />
+<div class="flex-container">
+<div class="flex-item" style="flex-grow: 0; margin-right: 1em;">
+  <a class="nostyle" href="#"><img src="media/images/logo_square.png" class="logo_circle main"/><h1 class="headername">Reddit</h1></a>
+</div>
+<div class="flex-item" >
+  <input class="headersearch" type="text" placeholder="Search"/>
+  <button class="headerbutton mi">search</button>
+</div>
+</div>
+
+<div id="subrecs">
+
+<h2>Similar to <span id="recsub"></span></h2>
+<div class="subholder" id="subholder">
+
+</div>
+<hr style=/>
+</div>
+<br /><br />
+<div class="flex-container">
+<div class="postbody" id="container"></div>
+
+<div class="sidebar">
+  <div class="sidebar_inner">
+    <div class="header" id="subhead">
+
+    </div>
+  </div>
+</div>
+
+</div>
+</div>
+<script src="/js/app.js"></script>
+<script>init();</script>
+</body>
+</html>
